@@ -1,0 +1,13 @@
+/*
+ Theme Name:   Pinboard Child
+ Theme URI:    https://www.onedesigns.com/themes/pinboard
+ Description:  Pinboard child theme
+ Author:       L Manzanarez
+ Template:     pinboard
+ Version:      1.0.0
+ Text Domain:  pinboard-child
+*/
+
+#access a:hover, #access li.current_page_item > a, #access li.current-menu-item > a{
+	background-color: #662d91;
+}
