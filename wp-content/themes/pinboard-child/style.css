@@ -8,6 +8,19 @@
  Text Domain:  pinboard-child
 */
 
-#access a:hover, #access li.current_page_item > a, #access li.current-menu-item > a{
+#access a:hover, #access li.current_page_item > a, #access li.current-menu-item > a, #access li.current_page_parent > a, #access li.current_page_ancestor > a{
 	background-color: #662d91;
+}
+
+li.current_page_item > a:hover, #access li.current-menu-item > a:hover{
+	background-color: #8D3FC8;
+}
+input[type="email"]{
+	padding: 1.5%;
+	box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
+	background: #FCFCFC;
+	border: #EEE 1px solid;
+	color: #999;
+	font-family: "Droid Sans", sans-serif;
+	font-size: 13px;
 }
