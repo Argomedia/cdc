@@ -24,3 +24,6 @@ input[type="email"]{
 	font-family: "Droid Sans", sans-serif;
 	font-size: 13px;
 }
+.entry-author{
+	display: none !important;
+}
